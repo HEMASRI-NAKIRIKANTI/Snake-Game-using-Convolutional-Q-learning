@@ -1,9 +1,4 @@
-'''
-    AUTHOR: Mannam Nagendra Babu
-    FILENAME: brain.py
-    SPECIFICATION: creating a neural network
-    FOR: CS 5392 Reinforcement Learning Section 001
-'''
+
 #Importing the libraries
 import keras
 from keras.models import Sequential, load_model
