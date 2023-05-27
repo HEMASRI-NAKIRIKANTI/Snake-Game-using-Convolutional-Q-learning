@@ -1,9 +1,4 @@
-'''
-    AUTHOR: Hema Sri Nakirikanti
-    FILENAME: dqn.py
-    SPECIFICATION: saving the model to memory
-    FOR: CS 5392 Reinforcement Learning Section 001
-'''
+
 import numpy as np
 '''
 NAME            : Dqn
