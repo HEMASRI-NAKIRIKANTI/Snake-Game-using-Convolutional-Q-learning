@@ -1,9 +1,4 @@
-'''
-    AUTHOR: Sai Ajay Kunapaneni
-    FILENAME: train.py
-    SPECIFICATION: training the agent to learn
-    FOR: CS 5392 Reinforcement Learning Section 001
-'''
+
 #Importing the libraries
 from environment import Environment
 from brain import Brain
