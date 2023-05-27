@@ -1,9 +1,4 @@
-'''
-    AUTHOR: Turlapati Venkata Shanmukha Viswanath
-    FILENAME: test.py
-    SPECIFICATION: test environment based on train model
-    FOR: CS 5392 Reinforcement Learning Section 001
-'''
+
 #Importing the libraries
 from environment import Environment
 from brain import Brain
