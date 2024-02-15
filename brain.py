@@ -25,7 +25,8 @@ class Brain():
           
           #Creating the neural network
           self.model = Sequential()
-          
+
+          # we are creating 32 filter(To extarct 32 features) each of size 3 * 3 
           self.model.add(Conv2D(32, (3,3), activation = 'relu', input_shape = self.inputShape))
           
           self.model.add(MaxPooling2D((2, 2)))
@@ -33,7 +34,7 @@ class Brain():
           self.model.add(Conv2D(64, (2,2), activation = 'relu'))
           
           self.model.add(Flatten())
-          
+          #Full connection layers 
           self.model.add(Dense(256, activation = 'relu'))
           
           self.model.add(Dense(self.numOutputs))
